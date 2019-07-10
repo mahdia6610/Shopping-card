@@ -1,0 +1,138 @@
+body{
+background: #7ec855;
+font-family: sans-serif;
+margin: 0;
+color: #b0704d;
+font-size: 18px
+}
+
+button {
+    border: none !important;
+    outline: none !important;
+    margin:0px ;
+    
+   
+}
+.big-p{
+    font-size: 30px;
+    color: #5e81bd;
+    margin-left: 50px;
+}
+li.big-p{
+    color: #b0704d;
+}
+.number-size{
+font-size: 20px;
+margin-right: 20px;
+
+}
+.small-p{
+    font-size: 14px;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+i{display:inline-block;
+    
+}
+
+
+img{
+    width: 130px;
+    height: 80px;
+
+}
+
+.base-layout{
+    display:flex;
+    flex-direction: row;
+   
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+section{
+    margin:5% 15%;
+ 
+    background:white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    overflow:visible;
+
+}
+
+.ul-items{
+display:flex;
+flex-direction: column;
+}
+.ul-items>li{
+    margin-top: 20px;
+}
+
+.ul-item{
+    display:flex;
+    flex-direction: row;
+    
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.ul-item li{
+    margin-left: 0px;
+}
+.modify-item{
+    width: 80px;
+}
+.modify-item button{
+    border: none;
+  padding: 0;
+  background: none;
+  margin:0 20px;
+}
+.modify-item button:hover{
+    color: #5e81bd;
+}
+.modify-item button:active{
+    color:#b0704d;
+}
+
+.fill-love{
+    fill:currentColor;
+    
+}
+
+
+
+
+
+.delete-btn{
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hollow-btn{
+border:none;
+text-decoration: none;
+color:none;
+}
